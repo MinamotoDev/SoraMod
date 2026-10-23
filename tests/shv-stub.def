@@ -1,0 +1,11 @@
+LIBRARY ScriptHookV.dll
+EXPORTS
+?nativeInit@@YAX_K@Z=fakeInit
+?nativePush64@@YAX_K@Z=fakePush
+?nativeCall@@YAPEA_KXZ=fakeCall
+?scriptWait@@YAXK@Z=fakeWait
+?scriptRegister@@YAXPEAUHINSTANCE__@@P6AXXZ@Z=fakeRegister
+?scriptUnregister@@YAXPEAUHINSTANCE__@@@Z=fakeUnregister
+?createTexture@@YAHPEBD@Z=fakeTexture
+?drawTexture@@YAXHHHHMMMMMMMMMMMM@Z=fakeDraw
+?getGlobalPtr@@YAPEA_KH@Z=fakeGlobal

@@ -1,0 +1,3 @@
+LIBRARY ScriptHookV.dll
+EXPORTS
+?scriptWait@@YAXK@Z
